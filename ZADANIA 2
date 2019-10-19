@@ -1,0 +1,42 @@
+Java EE - Formularze
+Zadania.
+
+W ramach pracy domowej rozbudujemy nasz system do zarządzania treścią (CMS - Content Management System).
+Zadanie 1
+
+    Utwórz kontroler CategoryController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich kategorii
+    dodać kategorię
+    usunąć kategorię
+    edytować kategorię
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Utwórz linki nawigacyjne umożliwiające przechodzenie między akcjami - bez konieczności znania adresów URL.
+
+Zadanie 2
+
+    Utwórz kontroler AuthorController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich autorów
+    dodać autora
+    usunąć autora
+    edytować autora
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Utwórz linki nawigacyjne umożliwiające przechodzenie między akcjami - bez konieczności znania adresów URL.
+
+Zadanie 3
+
+    Utwórz kontroler ArticleController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich artykułów
+    dodać artykuł
+    usunąć artykuł
+    edytować artykuł
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Formularz tworzenia ma zawierać pola z możliwością wyboru autora.
+    Formularz tworzenia ma zawierać pola z możliwością wyboru wielu kategorii.
+    Dodaj konwertery dla klas Author oraz Category.
+    Utwórz linki nawigacyjne umożliwiające przechodzenie między akcjami - bez konieczności znania adresów URL.

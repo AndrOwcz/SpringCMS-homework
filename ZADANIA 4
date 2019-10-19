@@ -1,0 +1,22 @@
+Java EE - Hibernate Relacje
+Zadania.
+
+W ramach pracy domowej rozbudujemy nasz system do zarządzania treścią (CMS - Content Management System).
+Zadanie 1
+
+    Uzupełnij projekt o odpowiednie zależności Mavena wymagane do korzystania ze Spring Data.
+    Dodaj adnotacje konfiguracyjne.
+    Utwórz pakiet zawierający repozytoria.
+    Sprawdź działanie programu.
+
+Zadanie 2
+
+    Utwórz repozytoria dla wszystkich klas naszego CMS.
+
+    Category
+    Author
+    Article
+
+Zadanie 3
+
+    Utwórz implementacje wszystkich metod dostępu do danych z których do tej pory korzystałeś przy użyciu repozytoriów.

@@ -1,0 +1,53 @@
+Java EE - Walidacja
+Zadania.
+
+W ramach pracy domowej rozbudujemy nasz system do zarządzania treścią (CMS - Content Management System).
+Zadanie 1
+
+    Dla encji Category ustaw następujące ograniczenia:
+
+    name - minimum 5 znaków, pole wymagane
+
+    Dla encji Author ustaw następujące ograniczenia:
+
+    firstName - pole wymagane
+    lastName - pole wymagane
+
+    Dla encji Article ustaw następujące ograniczenia:
+
+    title - pole wymagane, maksymalnie 200 znaków
+    content - pole wymagane, minimalnie 500 znaków
+    category - pole wymagane
+
+Zadanie 2
+
+    Dodaj walidację formularzy dla akcji kontrolerów:
+
+    CategoryController
+    AuthorController
+    ArticleController
+
+Zadanie 3
+
+    Utwórz własny walidator ograniczający ilość jakie mogą być zdefiniowane dla danego artykułu.
+    Ilość ma być definiowana w parametrze adnotacji.
+    Ustaw ograniczenie i przetestuj jego działanie.
+
+Zadanie 4
+
+    Rozbudujemy naszą aplikację o możliwość dodawania szkiców artykułów.
+    W tym celu rozbuduj encję Article o dodatkowe pole typu boolean draft.
+    Utwórz kontroler DraftController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich szkiców
+    dodać szkic
+    usunąć szkic
+    edytować szkic
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Dla szkicu wymaganymi polami są tylko:
+
+    title
+    content
+
+    Utwórz odpowiednie grupy walidacji, oraz zmodyfikuj akcje dodawania artykułu, tak aby dało się dodać zarówno szkic, z uproszczonym zestawem danych jak i artykuł.
